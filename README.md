@@ -21,7 +21,8 @@ Raspberry Pi OS is a computer operating system officially provided by the Raspbe
 
 Installing the Raspberry Pi  operating system has become much easier by using the Raspberry Pi Imager software. The program includes the option to erase and to write the microSD memory card used for Pi.
 
-[Download](https://www.raspberrypi.org/software/) and install Raspberry Pi Imager to a computer with an SD card reader. Put the SD card you'll use with your Raspberry Pi into the reader and run Raspberry Pi Imager. We used the Windows version in this case.
+1. [Download](https://www.raspberrypi.org/software/) and install Raspberry Pi Imager to a computer with an SD card reader. Put the SD card you'll use with your Raspberry Pi into the reader and run Raspberry Pi Imager. We used the Windows version in this case.
+2. Insert your MicroSD card into the memory card adapter and insert that adapter into the card reader of your computer. **Note: *If the memory card used is new, you don’t need to erase and format the card. Otherwise, you have to use the Raspberry Pi Imager to erase and format the card.*
 
 
 
