@@ -24,6 +24,7 @@ Installing the Raspberry Pi  operating system has become much easier by using th
 1. [Download](https://www.raspberrypi.org/software/) and install Raspberry Pi Imager to a computer with an SD card reader. Put the SD card you'll use with your Raspberry Pi into the reader and run Raspberry Pi Imager. We used the Windows version in this case.
 **Note:** *If the memory card used is new, you don’t need to erase and format the card. Otherwise, you have to use the Raspberry Pi Imager to erase and format the card.*
 2. Select the Raspberry Pi OS (32bit) as the Operating System, your SD card and click *write.
-![install](C:\Users\Kostas\Pictures\rover\installpi.png)
+![install](https://user-images.githubusercontent.com/54486032/103786697-a1529f00-5034-11eb-9433-5fd7df63586c.png)
+![done](https://user-images.githubusercontent.com/54486032/103786921-e5de3a80-5034-11eb-9e44-60554ada0315.png)
 
 
