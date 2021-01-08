@@ -1,5 +1,5 @@
 # Background
-A rover based on a version of the Sawppy project, Curio. Plan is to experiment with robotic movement, sensing, data collection and analysis in under-the-canopy surveys for optimised woodland mensuration initially. The build process requires hardware and software setup which is the topic of the following guidelines. Information on how to setup the Raspberry Pi and the ROS was mostly taken from [here](https://www.intorobotics.com/how-to-install-ros-melodic-rosserial-and-more-on-raspberry-pi-4-raspbian-buster/)
+A rover based on a version of the Sawppy project, Curio. Plan is to experiment with robotic movement, sensing, data collection and analysis in under-the-canopy surveys for optimised woodland mensuration initially. The build process requires hardware and software setup which is the topic of the following guidelines. Information on how to setup the Raspberry Pi and the ROS was mostly taken from [here](https://www.intorobotics.com/how-to-install-ros-melodic-rosserial-and-more-on-raspberry-pi-4-raspbian-buster/).
 
 # Raspberry Pi
 The Raspberry Pi 4 Model B 8GB is the computer of choice to *manage hardware components and run algorithms to control the robot*. At the time of writing, this version is capable of running ROS, algorithms to detect objects, and deep learning algorithms. 
@@ -30,7 +30,10 @@ Installing the Raspberry Pi  operating system has become much easier by using th
 After the process of writing the image of the operating system on the memory card is finished, insert the microSD card into the Raspberry Pi’s slot and power up the board.
 
 
-# Enable SSH for remote access
-Secure Shell (SSH) is a network protocol that allows us to operate the Pi board securely over an unsecured network. We can achieve this by logging into our Raspberry Pi via SSH using the user and the IP address from our laptop.
+# How to communicate with Raspberry Pi
+
+Enable SSH for remote access
+Secure Shell (SSH) is a network protocol that allows us to operate the Pi board securely over an unsecured network like the internet. We can achieve this by logging into our Raspberry Pi via SSH using the user and the IP address from our laptop.
 
 Using this service, we can run commands on Pi without needing to plug in a display, a keyboard, a mouse or moving ourselves to the location of the Raspberry Pi each time. This service is indispensible in the situation where the Pi board is running on a mobile robot like the one we are building.
+
