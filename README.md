@@ -44,7 +44,7 @@ To remain on the safe side, we decided to use a third-party service to form a se
 First, activate SSH on Raspberry Pi. Boot with the GUI , click on the main menu and choose *Preferences > Raspberry Pi Configuration*, choose the *Interfaces* tab and set *SSH Enabled*. The same process can be followed if booting on the command line and typing *raspi-config* to follow the same options.
 
 Then,  make sure your Raspberry Pi is connected to the internet (ethernet or wireless LAN). Open the Terminal window and enter the following commands: 
-*sudo apt update*
-*sudo apt install remoteit*
+- *sudo apt update*
+- *sudo apt install remoteit*
 
 When the packages are installed, the Terminal outputs the configuration information to continue your device configuration
