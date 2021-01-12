@@ -30,10 +30,21 @@ Installing the Raspberry Pi  operating system has become much easier by using th
 After the process of writing the image of the operating system on the memory card is finished, insert the microSD card into the Raspberry Pi’s slot and power up the board.
 
 
-# How to communicate with Raspberry Pi
+## How to communicate with Raspberry Pi
 
-Enable SSH for remote access
-Secure Shell (SSH) is a network protocol that allows us to operate the Pi board securely over an unsecured network like the internet. We can achieve this by logging into our Raspberry Pi via SSH using the user and the IP address from our laptop.
+#### Enable SSH for remote access
+Secure Shell (SSH) is a network protocol that allows us to operate the Pi board securely over an unsecured network like the internet. We can achieve this by logging into our Raspberry Pi via SSH using the user and the IP address from our laptop. We can also use SSH to connect to Pi in our LAN. 
 
 Using this service, we can run commands on Pi without needing to plug in a display, a keyboard, a mouse or moving ourselves to the location of the Raspberry Pi each time. This service is indispensible in the situation where the Pi board is running on a mobile robot like the one we are building.
 
+SSH (and [Virtual Network Computing](https://magpi.raspberrypi.org/articles/vnc-raspberry-pi)) involve opening a port on Raspberry Pi (5900+N for VNC and 22 for SSH). This potentially exposes your Raspberry Pi and is generally considered as a security vulnerability that should ideally be avoided. Hackers actively look for Raspberry Pi devices with these open ports and default passwords. 
+
+To remain on the safe side, we decided to use a third-party service to form a secure remote connection to our Raspberry Pi. Let's take a look at remote.it to understand how to access our Raspberry Pi remotely without port forwarding. We will use remote.it's client to form a peer-to-peer network. Remote.it claims this is a safer way to set up a gateway than traditional VPN.
+
+First, activate SSH on Raspberry Pi. Boot with the GUI , click on the main menu and choose *Preferences > Raspberry Pi Configuration*, choose the *Interfaces* tab and set *SSH Enabled*. The same process can be followed if booting on the command line and typing *raspi-config* to follow the same options.
+
+Then,  make sure your Raspberry Pi is connected to the internet (ethernet or wireless LAN). Open the Terminal window and enter the following commands: 
+*sudo apt update*
+*sudo apt install remoteit*
+
+When the packages are installed, the Terminal outputs the configuration information to continue your device configuration
