@@ -40,6 +40,7 @@ Using this service, we can run commands on Pi without needing to plug in a displ
 SSH (and [Virtual Network Computing](https://magpi.raspberrypi.org/articles/vnc-raspberry-pi)) involve opening a port on Raspberry Pi (5900+N for VNC and 22 for SSH). This potentially exposes your Raspberry Pi and is generally considered as a security vulnerability that should ideally be avoided. Hackers actively look for Raspberry Pi devices with these open ports and default passwords. 
 
 To remain on the safe side, we decided to use a third-party service to form a secure remote connection to our Raspberry Pi. Let's take a look at remote.it to understand how to access our Raspberry Pi remotely without port forwarding. We will use remote.it's client to form a peer-to-peer network. Remote.it claims this is a safer way to set up a gateway than traditional VPN.
+![remote.it](https://user-images.githubusercontent.com/54486032/104328091-61cbfd00-54e3-11eb-955e-1f77c1d161fb.png)
 
 First, activate SSH on Raspberry Pi. Boot with the GUI , click on the main menu and choose *Preferences > Raspberry Pi Configuration*, choose the *Interfaces* tab and set *SSH Enabled*. The same process can be followed if booting on the command line and typing *raspi-config* to follow the same options.
 
