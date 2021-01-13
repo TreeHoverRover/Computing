@@ -53,7 +53,7 @@ Then,  make sure your Raspberry Pi is connected to the internet (ethernet or wir
 
 When the packages are installed, the Terminal outputs the configuration information to continue your device configuration.
 
-[]
+![config](https://user-images.githubusercontent.com/54486032/104459563-cdc26a00-55a4-11eb-9888-bf5b50d98538.png)
 
 
 
