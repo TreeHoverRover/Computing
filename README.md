@@ -55,5 +55,7 @@ When the packages are installed, the Terminal outputs the configuration informat
 
 ![config](https://user-images.githubusercontent.com/54486032/104459563-cdc26a00-55a4-11eb-9888-bf5b50d98538.png)
 
-
+ Finish the setup by adding your Pi device to remote.it. Make sure your local PC is connected to the same wifi (LAN) as the Pi. Then visit http://find.remote.it and you should see there is one device discovered. Click *Connect* and login with your new account. You will then be directed to register a new device. In the device registration page, you will be ask to provided a name for the device. After filling in the device name, please make sure that “ssh” service is selected as we wish to ssh into the Pi remotely.
+ 
+ To access your Pi from anywhere, download and install the [remote.it client](https://remote.it/downloads/#pi) for your OS. 
 
