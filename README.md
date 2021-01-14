@@ -69,7 +69,7 @@ Now that you are connected to your Pi let's move on to install ROS.
 
 #### Some notes on additional security
 The default *pi* user with its' *raspberry* password is prone to attacks therefore we deleted this user from our Raspberry Pi and created our new user with superuser permissions. Since we aim to run commands via SSH right after the Pi is powered up and connected to the internet, the solution is to permit root login. Open the Terminal and run the command:
-'''
+'''linux
 sudo nano /etc/ssh/sshd_config
 '''
 Scroll down to *Authentication* and uncomment the line *#PermitRootLogin* by deleting the # and then write *yes*. Save the file with *Ctrl + o* and exit with *Ctrl + x*.
