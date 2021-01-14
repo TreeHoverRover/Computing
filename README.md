@@ -48,9 +48,10 @@ To remain on the safe side, we decided to use a third-party service to form a se
 First, activate SSH on Raspberry Pi. Boot with the GUI , click on the main menu and choose *Preferences > Raspberry Pi Configuration*, choose the *Interfaces* tab and set *SSH Enabled*. The same process can be followed if booting on the command line and typing *raspi-config* to follow the same options.
 
 Then,  make sure your Raspberry Pi is connected to the internet (ethernet or wireless LAN). Open the Terminal window and enter the following commands: 
-'''sudo apt update
+```
+sudo apt update
 sudo apt install remoteit
-'''
+```
 
 When the packages are installed, the Terminal outputs the configuration information to continue your device configuration.
 
@@ -69,8 +70,9 @@ Now that you are connected to your Pi let's move on to install ROS.
 
 #### Some notes on additional security
 The default *pi* user with its' *raspberry* password is prone to attacks therefore we deleted this user from our Raspberry Pi and created our new user with superuser permissions. Since we aim to run commands via SSH right after the Pi is powered up and connected to the internet, the solution is to permit root login. Open the Terminal and run the command:
-- sudo nano /etc/ssh/sshd_config
-
+```
+sudo nano /etc/ssh/sshd_config
+```
 Scroll down to *Authentication* and uncomment the line *#PermitRootLogin* by deleting the # and then write *yes*. Save the file with *Ctrl + o* and exit with *Ctrl + x*.
 
 ![config](https://user-images.githubusercontent.com/54486032/104608033-64f8f180-5679-11eb-97f6-3cbfb852bf2b.png)
