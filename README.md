@@ -60,7 +60,7 @@ When the packages are installed, the Terminal outputs the configuration informat
  To access your Pi from anywhere, download and install the [remote.it client](https://remote.it/downloads/#pi) for your OS. Run the client and you will then be directed to register a new device. In the device registration page, you will be ask to provided a name for the device. After filling in the device name, please make sure that “ssh” service is selected as we wish to ssh into the Pi remotely. Click *Connect* and then select *ssh* to view the relevant settings.
  
 ![it](https://user-images.githubusercontent.com/54486032/104582561-f48da880-5657-11eb-9e9b-2e38c9fe7993.png)
-
+![settings_LI (2)](https://user-images.githubusercontent.com/54486032/104583527-26533f00-5659-11eb-9fd8-a5f6ce168e2f.jpg)
  
  
 
