@@ -62,5 +62,7 @@ When the packages are installed, the Terminal outputs the configuration informat
 ![it](https://user-images.githubusercontent.com/54486032/104582561-f48da880-5657-11eb-9e9b-2e38c9fe7993.png)
 ![settings_LI (2)](https://user-images.githubusercontent.com/54486032/104583527-26533f00-5659-11eb-9fd8-a5f6ce168e2f.jpg)
  
- 
+The way we connected to our Raspberry Pi was via Powershell from Windows. You can also use a terminal in Unix/Mac or another SSH client like Putty.Remote.it configuration panel as shown on the last image above provides the relevant SSH command to copy-paste directly to your Powershell or terminal along with the individual URL and port number if using Putty for example. 
+
+Now that you are connected to your Pi let's move on to install ROS. 
 
