@@ -76,3 +76,10 @@ sudo nano /etc/ssh/sshd_config
 Scroll down to *Authentication* and uncomment the line *#PermitRootLogin* by deleting the # and then write *yes*. Save the file with *Ctrl + o* and exit with *Ctrl + x*.
 
 ![config](https://user-images.githubusercontent.com/54486032/104608033-64f8f180-5679-11eb-97f6-3cbfb852bf2b.png)
+
+## How to install ROS Melodic
+ROS (Robot Operating System) is a framework that is running on top of Raspbian. The framework includes a set of libraries and tools that we will use to build robots.
+ROS is an all-in-one solution if you want to build different robots. Once knowing how to write nodes, services, actions, and use the software packages, you can make different kinds of robots, including robot arms, drones, or autonomous mobile robots.
+
+ROS provides a wide range of packages for almost any robotic application. Mapping, navigation and localization, are just a few examples of useful packages to build robots.There is currently no official ROS Melodic installation guide for the Raspberry Pi 4 and Raspbian Buster operating system. Hence we will need to [**build it from the source**](http://wiki.ros.org/ROSberryPi/Installing%20ROS%20Melodic%20on%20the%20Raspberry%20Pi). 
+
